@@ -3,12 +3,12 @@ Plugin.led.Led1 = 1
 
 Wiimote.A = KEY_SPACE
 Wiimote.B = KEY_KPENTER
-Wiimote.Home = KEY_ESC
+Wiimote.Home = KEY_BACKSPACE
 Wiimote.Up = KEY_UP
 Wiimote.Down = KEY_DOWN
 Wiimote.Left = KEY_LEFT
 Wiimote.Right = KEY_RIGHT
 Wiimote.Minus = KEY_KPMINUS
 Wiimote.Plus = KEY_KPPLUS
-Wiimote.1 = KEY_M
+Wiimote.1 = KEY_SEMICOLON
 Wiimote.2 = KEY_PLAY
