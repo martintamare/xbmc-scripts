@@ -1,7 +1,7 @@
 #! /usr/bin/env python2.6
 import MySQLdb
 import sqlite3
-from my_password import mysql
+from my_password import p_mysql
 
 # Our object will handle slave data (s_) and master data (m_)
 class MixedDbRecord(object):
@@ -132,8 +132,8 @@ s_cursor.close()
 # MYSQL : connect
 #-------------------------------------------
 m_conn = MySQLdb.connect(host = "localhost",
-                           user = mysql.user,
-                           passwd = mysql.password,
+                           user = p_mysql.user,
+                           passwd = p_mysql.password,
                            db = "xbmc_video")
 m_cursor = m_conn.cursor()
 
